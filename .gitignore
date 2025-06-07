@@ -1,0 +1,134 @@
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log*
+yarn-error.log
+
+# Vue.js / Frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/.tmp
+/frontend/.sass-cache
+/frontend/.DS_Store
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+/storage/logs/*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.sql.bak
+
+# Export directory (contains sensitive data)
+/export
+
+# Temporary and test files
+*.tmp
+*.temp
+/getMessage()
+/query('SELECT
+/execute(['document'])
+/prepare('UPDATE
+/query('SHOW
+/FINAL_CHECK_SUMMARY.md
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Cache
+.cache/
+*.cache
+
+# Generated files
+/public/css/app.css
+/public/js/app.js
+/public/mix-manifest.json
+
+# Composer
+composer.phar
+
+# PHP
+*.php~
+*.php.bak
+
+# Laravel specific
+/bootstrap/compiled.php
+/app/storage/
+
+# Development tools and scripts (keep only essential ones)
+fix_*.bat
+fix_*.sql
+test_*.html
+test_*.php
+check_*.php
+comprehensive_*.bat
+create_*.bat
+run_*.bat
+setup_*.bat
+*.ps1
+简单测试.txt
+phpmyadmin_fix.sql
+
+# Keep important deployment files
+!export_data.php
+!import.php
+!direct_import.php
+!simple_import.php
+!import_resources.php
+!部署文档-*.md
+!快速部署指南.md
+!执行导入说明.md
